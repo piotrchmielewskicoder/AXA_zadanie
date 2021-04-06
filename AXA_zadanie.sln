@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AXA_zadanie", "AXA_zadanie\AXA_zadanie.csproj", "{63B94BB0-358A-46D0-BC61-8B68A84EDA13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AXA_zadanie", "AXA_zadanie\AXA_zadanie.csproj", "{63B94BB0-358A-46D0-BC61-8B68A84EDA13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{F89D92CA-3356-4F83-A4D5-739532C30385}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{63B94BB0-358A-46D0-BC61-8B68A84EDA13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63B94BB0-358A-46D0-BC61-8B68A84EDA13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63B94BB0-358A-46D0-BC61-8B68A84EDA13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F89D92CA-3356-4F83-A4D5-739532C30385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F89D92CA-3356-4F83-A4D5-739532C30385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F89D92CA-3356-4F83-A4D5-739532C30385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F89D92CA-3356-4F83-A4D5-739532C30385}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
