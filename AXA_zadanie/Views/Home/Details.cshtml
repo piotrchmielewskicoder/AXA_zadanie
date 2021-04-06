@@ -1,0 +1,23 @@
+﻿@model SharpTrooper.Entities.Film
+
+@{
+    ViewData["Title"] = "View";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div>
+    <label>director : @Model.director</label>
+    <br />
+    <label>producer : @Model.producer</label>
+    <br />
+    <label>title : @Model.title</label>
+    <br />
+    <label>opening_crawl : @Model.opening_crawl</label>
+    <br />
+    <label>Number of characters : @Model.characters.Count()</label>
+    <br />
+    <br />
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

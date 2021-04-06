@@ -1,0 +1,29 @@
+﻿@model AXA_zadanie.ViewModel.FilmsListViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if(Model != null && Model.FilmsList.Count>0)
+{
+<table class="table table-dark">
+    <tr><td>Tytuł</td><td>Rating</td><td>Options</td></tr>
+    @foreach (var film in Model.FilmsList)
+    {
+     <tr><td>@film.Key.title</td>
+        <td>
+            @if (film.Value == -1)
+            {<p>Nikt jeszcze nie głosował</p>}
+            else
+            {<p>@film.Value</p>}
+
+        </td>
+        <td>
+            <a href="/home/details/@film.Key.episode_id">Details</a> |  
+            <a href="/home/vote/@film.Key.episode_id">vote</a>
+        </td>
+    </tr>
+
+    }
+</table>
+}
